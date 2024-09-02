@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "errorLogo.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

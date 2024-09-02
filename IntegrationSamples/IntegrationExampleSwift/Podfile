@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'IntegrationExampleSwift' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for IntegrationExampleSwift
+  pod 'FlashpaySDK_UI', '3.3.5'
+end
