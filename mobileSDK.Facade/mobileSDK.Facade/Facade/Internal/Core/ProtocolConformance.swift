@@ -14,7 +14,7 @@ import mobileSDK_UI
 #endif
 
 internal extension MsdkCore.PaymentMethod {
-    var wrapper: some mobileSDK_UI.PaymentMethod {
+    var wrapper: mobileSDK_UI.PaymentMethod {
         MsdkCorePaymentMethodWrapper(coreType: self)
     }
 }
@@ -60,7 +60,7 @@ private struct MsdkCorePaymentMethodWrapper: mobileSDK_UI.PaymentMethod {
 }
 
 internal extension MsdkCore.SavedAccount {
-    var wrapper: some mobileSDK_UI.SavedAccount {
+    var wrapper: mobileSDK_UI.SavedAccount {
         MsdkCoreSavedAccountWrapper(coreType: self)
     }
 }
@@ -125,7 +125,7 @@ internal class CoreValidationService: ValidationService {
 }
 
 extension MsdkCore.CustomerField {
-    var wrapper: some mobileSDK_UI.CustomerField {
+    var wrapper: mobileSDK_UI.CustomerField {
         MsdkCoreCustomerFieldWrapper(coreType: self)
     }
 }
@@ -168,7 +168,7 @@ struct MsdkCoreCustomerFieldWrapper: mobileSDK_UI.CustomerField {
 }
 
 internal extension MsdkCore.ClarificationField {
-    var wrapper: some mobileSDK_UI.ClarificationField {
+    var wrapper: mobileSDK_UI.ClarificationField {
         MsdkCoreClarificationFieldWrapper(coreType: self)
     }
 }
@@ -258,7 +258,7 @@ private struct MsdkCoreCompleteFieldWrapper: mobileSDK_UI.CompleteField {
 }
 
 internal extension MsdkCore.Payment {
-    var wrapper: some mobileSDK_UI.Payment {
+    var wrapper: mobileSDK_UI.Payment {
         MsdkCorePaymentWrapper(coreType: self)
     }
 }
