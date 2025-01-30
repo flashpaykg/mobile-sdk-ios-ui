@@ -55,7 +55,8 @@ class PayRequestFactory: mobileSDK_UI.PayRequestFactory {
             pan: pan,
             expiryDate: CardDate(month: month, year: year),
             cardHolder: cardHolder,
-            saveCard: saveCard
+            saveCard: saveCard,
+            storedCardType: nil
         )
 
         request.recipientInfo = recipientInfo?.coreRecipientInfo
@@ -78,7 +79,8 @@ class PayRequestFactory: mobileSDK_UI.PayRequestFactory {
             pan: pan,
             expiryDate: CardDate(month: month, year: year),
             cardHolder: cardHolder,
-            saveCard: saveCard
+            saveCard: saveCard,
+            storedCardType: nil
         )
 
         request.recipientInfo = recipientInfo?.coreRecipientInfo
@@ -174,7 +176,8 @@ class PayRequestFactory: mobileSDK_UI.PayRequestFactory {
             cvv: cvv,
             pan: pan,
             expiryDate: CardDate(month: month, year: year),
-            cardHolder: cardHolder
+            cardHolder: cardHolder,
+            storedCardType: nil
         )
 
         return PayRequestWrapper(coreRequest: request)

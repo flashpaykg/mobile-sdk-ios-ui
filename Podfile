@@ -1,12 +1,12 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '15.0'
+platform :ios, '15.6'
 #use_frameworks!
 use_modular_headers!
 workspace 'mobileSDK.xcworkspace'
 
 #TestClient
 
-TestClientTargets = ["FlashpaySample","FlashpaySampleNL3"]
+TestClientTargets = ["FlashpaySample"]
 
 for targetName in TestClientTargets
   target targetName do
@@ -16,11 +16,10 @@ end
 
 #mSDK iOS
 
-mSDKTargets = ["flashpaySDK", "flashpaySDK_Dev", "mSDK_UI"]
+mSDKTargets = ["flashpaySDK", "flashpaySDK_Dev"]
 for targetName in mSDKTargets
   target targetName do
     project './mobileSDK.Facade/mobileSDK.Facade.xcodeproj'
-    pod 'MsdkCore', '0.10.1'
-    pod 'KSCrash', :git => 'https://github.com/FLASHPAY/KSCrash.git'
+    pod 'MsdkCore', :path => './MSDKCore/MsdkCore.podspec'
   end
 end

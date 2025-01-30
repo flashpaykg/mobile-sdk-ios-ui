@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26C53EA2E9282E3DF22DA38A /* libPods-FlashpaySample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF01B1C3587397FC5834D8E0 /* libPods-FlashpaySample.a */; };
-		67B198A26F9091BBD96A800A /* libPods-FlashpaySampleNL3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4294E69FED21982E082FC020 /* libPods-FlashpaySampleNL3.a */; };
+		0336335C1F8ADD9C442344A8 /* libPods-FlashpaySample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8742B02D4A974A007C8B78 /* libPods-FlashpaySample.a */; };
+		5B8742C72D4A9DC4007C8B78 /* flashpaySDK_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843B503E28F5607E00A4F779 /* flashpaySDK_Dev.framework */; };
+		5B8742C82D4A9DC4007C8B78 /* flashpaySDK_Dev.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 843B503E28F5607E00A4F779 /* flashpaySDK_Dev.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8434FB5028B338DB00814D93 /* SignatureUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434FB4F28B338DB00814D93 /* SignatureUtils.swift */; };
 		845BB1D528B33DFA001C2A24 /* MainScreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BB1D428B33DFA001C2A24 /* MainScreenState.swift */; };
 		845BB1D928B340A3001C2A24 /* PaymentID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BB1D828B340A3001C2A24 /* PaymentID.swift */; };
@@ -17,28 +18,11 @@
 		845FC81C28AE153300C71288 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FC81B28AE153300C71288 /* MainScreen.swift */; };
 		845FC81E28AE153400C71288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845FC81D28AE153400C71288 /* Assets.xcassets */; };
 		845FC82128AE153400C71288 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845FC82028AE153400C71288 /* Preview Assets.xcassets */; };
-		84B67BAE29127AD500DF7550 /* flashpaySDK_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843B503E28F5607E00A4F779 /* flashpaySDK_Dev.framework */; };
-		84B67BAF29127AD500DF7550 /* flashpaySDK_Dev.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 843B503E28F5607E00A4F779 /* flashpaySDK_Dev.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84BCB96A2912189B00FAB064 /* RecurrentSettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BCB9692912189B00FAB064 /* RecurrentSettingsScreen.swift */; };
 		84CDC3E02910DAA100E3EB04 /* ThreeDSecureJsonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDC3DF2910DAA100E3EB04 /* ThreeDSecureJsonModels.swift */; };
 		84CDC3E22910E62D00E3EB04 /* ThreeDSecureScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDC3E12910E62D00E3EB04 /* ThreeDSecureScreen.swift */; };
 		84CDC3E42911268000E3EB04 /* ExpandingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDC3E32911268000E3EB04 /* ExpandingTextView.swift */; };
-		B3AB4769296BFF9700B2EED5 /* RecipientInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB4768296BFF9700B2EED5 /* RecipientInfoScreen.swift */; };
 		B3AB476A296BFF9F00B2EED5 /* RecipientInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB4768296BFF9700B2EED5 /* RecipientInfoScreen.swift */; };
-		DCC5E7EE294DEB03004E8864 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FC81B28AE153300C71288 /* MainScreen.swift */; };
-		DCC5E7EF294DEB03004E8864 /* SignatureUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434FB4F28B338DB00814D93 /* SignatureUtils.swift */; };
-		DCC5E7F0294DEB03004E8864 /* mobileSDK_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FC81928AE153300C71288 /* mobileSDK_SampleApp.swift */; };
-		DCC5E7F1294DEB03004E8864 /* PaymentID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BB1D828B340A3001C2A24 /* PaymentID.swift */; };
-		DCC5E7F2294DEB03004E8864 /* MainScreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BB1D428B33DFA001C2A24 /* MainScreenState.swift */; };
-		DCC5E7F3294DEB03004E8864 /* Flashpay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BB1DD28B35592001C2A24 /* Flashpay.swift */; };
-		DCC5E7F4294DEB03004E8864 /* ExpandingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDC3E32911268000E3EB04 /* ExpandingTextView.swift */; };
-		DCC5E7F5294DEB03004E8864 /* RecurrentSettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BCB9692912189B00FAB064 /* RecurrentSettingsScreen.swift */; };
-		DCC5E7F6294DEB03004E8864 /* ThreeDSecureScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDC3E12910E62D00E3EB04 /* ThreeDSecureScreen.swift */; };
-		DCC5E7F7294DEB03004E8864 /* ThreeDSecureJsonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDC3DF2910DAA100E3EB04 /* ThreeDSecureJsonModels.swift */; };
-		DCC5E7F9294DEB03004E8864 /* flashpaySDK_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843B503E28F5607E00A4F779 /* flashpaySDK_Dev.framework */; };
-		DCC5E7FC294DEB03004E8864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845FC82028AE153400C71288 /* Preview Assets.xcassets */; };
-		DCC5E7FD294DEB03004E8864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845FC81D28AE153400C71288 /* Assets.xcassets */; };
-		DCC5E7FF294DEB03004E8864 /* flashpaySDK_Dev.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 843B503E28F5607E00A4F779 /* flashpaySDK_Dev.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,34 +40,16 @@
 			remoteGlobalIDString = 849C535828BF62C800C1CF71;
 			remoteInfo = flashpaySDK;
 		};
-		B3AB4766296BFF8200B2EED5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 843B503728F5607E00A4F779 /* mobileSDK.Facade.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCC5E8E2294E023E004E8864;
-			remoteInfo = mSDK_UI;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		84B67BB029127AD500DF7550 /* Embed Frameworks */ = {
+		5B8742C92D4A9DC4007C8B78 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				84B67BAF29127AD500DF7550 /* flashpaySDK_Dev.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC5E7FE294DEB03004E8864 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				DCC5E7FF294DEB03004E8864 /* flashpaySDK_Dev.framework in Embed Frameworks */,
+				5B8742C82D4A9DC4007C8B78 /* flashpaySDK_Dev.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,7 +59,8 @@
 /* Begin PBXFileReference section */
 		1A22FB13FFD6A3E1B565FBB9 /* Pods-FlashpaySample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashpaySample.release.xcconfig"; path = "Target Support Files/Pods-FlashpaySample/Pods-FlashpaySample.release.xcconfig"; sourceTree = "<group>"; };
 		4294E69FED21982E082FC020 /* libPods-FlashpaySampleNL3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlashpaySampleNL3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B8FCBB22AA74EFA0036214F /* FlashpaySampleNL3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FlashpaySampleNL3-Info.plist"; sourceTree = "<group>"; };
+		5B8742AE2D4A9742007C8B78 /* libPods-flashpaySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-flashpaySDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8742B02D4A974A007C8B78 /* libPods-FlashpaySample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-FlashpaySample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840304B428B74E7E00DE38D3 /* FlashpaySample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlashpaySample.entitlements; sourceTree = "<group>"; };
 		8434FB4F28B338DB00814D93 /* SignatureUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureUtils.swift; sourceTree = "<group>"; };
 		843B503728F5607E00A4F779 /* mobileSDK.Facade.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mobileSDK.Facade.xcodeproj; path = ../mobileSDK.Facade/mobileSDK.Facade.xcodeproj; sourceTree = "<group>"; };
@@ -116,7 +83,6 @@
 		AF01B1C3587397FC5834D8E0 /* libPods-FlashpaySample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlashpaySample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B200B4D837ADFB88C0AF14BE /* Pods-FlashpaySample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashpaySample.debug.xcconfig"; path = "Target Support Files/Pods-FlashpaySample/Pods-FlashpaySample.debug.xcconfig"; sourceTree = "<group>"; };
 		B3AB4768296BFF9700B2EED5 /* RecipientInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientInfoScreen.swift; sourceTree = "<group>"; };
-		DCC5E803294DEB03004E8864 /* FlashpaySampleNL3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashpaySampleNL3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F27BCB494D2826A1C32252 /* Pods-FlashpaySampleNL3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashpaySampleNL3.release.xcconfig"; path = "Target Support Files/Pods-FlashpaySampleNL3/Pods-FlashpaySampleNL3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,17 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B67BAE29127AD500DF7550 /* flashpaySDK_Dev.framework in Frameworks */,
-				26C53EA2E9282E3DF22DA38A /* libPods-FlashpaySample.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC5E7F8294DEB03004E8864 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCC5E7F9294DEB03004E8864 /* flashpaySDK_Dev.framework in Frameworks */,
-				67B198A26F9091BBD96A800A /* libPods-FlashpaySampleNL3.a in Frameworks */,
+				5B8742C72D4A9DC4007C8B78 /* flashpaySDK_Dev.framework in Frameworks */,
+				0336335C1F8ADD9C442344A8 /* libPods-FlashpaySample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +142,6 @@
 			children = (
 				843B503E28F5607E00A4F779 /* flashpaySDK_Dev.framework */,
 				843B504028F5607E00A4F779 /* flashpaySDK.framework */,
-				B3AB4767296BFF8200B2EED5 /* mSDK_UI.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,7 +157,6 @@
 		845FC80D28AE153300C71288 = {
 			isa = PBXGroup;
 			children = (
-				5B8FCBB22AA74EFA0036214F /* FlashpaySampleNL3-Info.plist */,
 				843B503728F5607E00A4F779 /* mobileSDK.Facade.xcodeproj */,
 				840304B428B74E7E00DE38D3 /* FlashpaySample.entitlements */,
 				845FC81828AE153300C71288 /* mobileSDK.SampleApp */,
@@ -215,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				845FC81628AE153300C71288 /* FlashpaySample.app */,
-				DCC5E803294DEB03004E8864 /* FlashpaySampleNL3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,6 +201,8 @@
 		845FC82728AE157800C71288 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B8742B02D4A974A007C8B78 /* libPods-FlashpaySample.a */,
+				5B8742AE2D4A9742007C8B78 /* libPods-flashpaySDK.a */,
 				84B67B96291251B400DF7550 /* flashpaySDK_Dev.xcframework */,
 				849DCBAB28B7BF4D00C36361 /* mobileSDK_UI.framework */,
 				845FC82828AE157800C71288 /* flashpaySDK.framework */,
@@ -293,7 +249,7 @@
 				845FC81228AE153300C71288 /* Sources */,
 				845FC81328AE153300C71288 /* Frameworks */,
 				845FC81428AE153300C71288 /* Resources */,
-				84B67BB029127AD500DF7550 /* Embed Frameworks */,
+				5B8742C92D4A9DC4007C8B78 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,25 +258,6 @@
 			name = FlashpaySample;
 			productName = mobileSDK.SampleApp;
 			productReference = 845FC81628AE153300C71288 /* FlashpaySample.app */;
-			productType = "com.apple.product-type.application";
-		};
-		DCC5E7EB294DEB03004E8864 /* FlashpaySampleNL3 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DCC5E800294DEB03004E8864 /* Build configuration list for PBXNativeTarget "FlashpaySampleNL3" */;
-			buildPhases = (
-				4E5ACB610168E903317FE4E3 /* [CP] Check Pods Manifest.lock */,
-				DCC5E7ED294DEB03004E8864 /* Sources */,
-				DCC5E7F8294DEB03004E8864 /* Frameworks */,
-				DCC5E7FB294DEB03004E8864 /* Resources */,
-				DCC5E7FE294DEB03004E8864 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FlashpaySampleNL3;
-			productName = mobileSDK.SampleApp;
-			productReference = DCC5E803294DEB03004E8864 /* FlashpaySampleNL3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -361,7 +298,6 @@
 			);
 			projectRoot = "";
 			targets = (
-				DCC5E7EB294DEB03004E8864 /* FlashpaySampleNL3 */,
 				845FC81528AE153300C71288 /* FlashpaySample */,
 			);
 		};
@@ -382,13 +318,6 @@
 			remoteRef = 843B503F28F5607E00A4F779 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B3AB4767296BFF8200B2EED5 /* mSDK_UI.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = mSDK_UI.framework;
-			remoteRef = B3AB4766296BFF8200B2EED5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -398,15 +327,6 @@
 			files = (
 				845FC82128AE153400C71288 /* Preview Assets.xcassets in Resources */,
 				845FC81E28AE153400C71288 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC5E7FB294DEB03004E8864 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCC5E7FC294DEB03004E8864 /* Preview Assets.xcassets in Resources */,
-				DCC5E7FD294DEB03004E8864 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,28 +355,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4E5ACB610168E903317FE4E3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FlashpaySampleNL3-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -475,24 +373,6 @@
 				84CDC3E22910E62D00E3EB04 /* ThreeDSecureScreen.swift in Sources */,
 				84CDC3E02910DAA100E3EB04 /* ThreeDSecureJsonModels.swift in Sources */,
 				B3AB476A296BFF9F00B2EED5 /* RecipientInfoScreen.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCC5E7ED294DEB03004E8864 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCC5E7EE294DEB03004E8864 /* MainScreen.swift in Sources */,
-				DCC5E7EF294DEB03004E8864 /* SignatureUtils.swift in Sources */,
-				DCC5E7F0294DEB03004E8864 /* mobileSDK_SampleApp.swift in Sources */,
-				DCC5E7F1294DEB03004E8864 /* PaymentID.swift in Sources */,
-				DCC5E7F2294DEB03004E8864 /* MainScreenState.swift in Sources */,
-				DCC5E7F3294DEB03004E8864 /* Flashpay.swift in Sources */,
-				DCC5E7F4294DEB03004E8864 /* ExpandingTextView.swift in Sources */,
-				DCC5E7F5294DEB03004E8864 /* RecurrentSettingsScreen.swift in Sources */,
-				DCC5E7F6294DEB03004E8864 /* ThreeDSecureScreen.swift in Sources */,
-				DCC5E7F7294DEB03004E8864 /* ThreeDSecureJsonModels.swift in Sources */,
-				B3AB4769296BFF9700B2EED5 /* RecipientInfoScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +515,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -673,6 +554,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -682,84 +564,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kg.flashpay.sdk.testclient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = mSDKTestClientFlashpayAdHoc;
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AdHoc kg.flashpay.sdk.testclient";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		DCC5E801294DEB03004E8864 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D1CAF7D7DABDC4446272652 /* Pods-FlashpaySampleNL3.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = FlashpaySample.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 78;
-				DEVELOPMENT_ASSET_PATHS = "\"mobileSDK.SampleApp/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4287668275;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "FlashpaySampleNL3-Info.plist";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Permission is needed in order to scan cards";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0.2;
-				OTHER_SWIFT_FLAGS = "-D NL3";
-				PRODUCT_BUNDLE_IDENTIFIER = kg.flashpay.sdk.testclient;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development kg.flashpay.sdk.testclient";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DCC5E802294DEB03004E8864 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2F27BCB494D2826A1C32252 /* Pods-FlashpaySampleNL3.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = FlashpaySample.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 78;
-				DEVELOPMENT_ASSET_PATHS = "\"mobileSDK.SampleApp/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4287668275;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "FlashpaySampleNL3-Info.plist";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Permission is needed in order to scan cards";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0.2;
-				OTHER_SWIFT_FLAGS = "-D NL3";
-				PRODUCT_BUNDLE_IDENTIFIER = kg.flashpay.sdk.testclient;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AdHoc kg.flashpay.sdk.testclient";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -784,15 +588,6 @@
 			buildConfigurations = (
 				845FC82528AE153400C71288 /* Debug */,
 				845FC82628AE153400C71288 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DCC5E800294DEB03004E8864 /* Build configuration list for PBXNativeTarget "FlashpaySampleNL3" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCC5E801294DEB03004E8864 /* Debug */,
-				DCC5E802294DEB03004E8864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

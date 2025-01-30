@@ -15,8 +15,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/flashpaykg/mobile-sdk-ios-ui"
   spec.license      = "MIT"
  
-  spec.authors      = { "Alexey Khrameev"  =>  "a.khrameev@it.flashpay.kg",
-                        "Artem Serebrennikov"  =>  "a.serebrennikov@it.flashpay.kg" }
+  spec.authors      = { "Alexey Khrameev"  =>  "a.khrameev@it.flashpay.kg" }
 
   spec.platform     = :ios
   spec.ios.deployment_target = "14"
