@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "FlashpaySDK_UI"
-  spec.version      = "3.4.0"
+  spec.version      = "3.4.1"
   spec.summary      = "Flashpay SDK with UI for iOS"
 
   spec.description  = "SDK for iOS is a software development kit for fast integration of the flashpaykg payment solutions right in your mobile app for iOS."
